@@ -1,0 +1,13 @@
+{{#if comments.length}}
+<section class="comment-posts">
+  {{#each comments as |comment|}}
+  <div>
+    <p>
+      {{user.name}} on {{format_date commnet.date_created}}
+    </p>
+    <p>
+      {{comment.content}}
+    </p>
+  </div>
+
+</section>

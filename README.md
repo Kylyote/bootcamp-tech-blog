@@ -2,6 +2,10 @@
 
 A blog similar to what can be found on Wordpress that is deployed to Heroku.
 
+## Description
+
+Tech blog website that allows users to create an account or login if they have already created one. This required JawsDB to function as Heroku does not have a built in MySQL handler. The handler is required as users can post blogs and comment on them (this is a feature that has yet to be added). Blogs can be deleted but the editing function is not quite working.
+
 ## User Story
 
 ```
@@ -47,3 +51,29 @@ THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view posts and comments but I am prompted to log in again before I can add, update, or delete posts
 ```
+
+## Sources
+
+- Phind for little questions on how routes work
+- MVC Mini-Project beccause how everything connects together still feels like magic.
+
+## Collaborators
+
+- Chelsea Wagner: https://github.com/caf62219
+
+Links:
+Link to repo:  
+https://github.com/Kylyote/bootcamp-tech-blog
+Link to Heroku:  
+https://new-technology-blog-52e4cb0b4514.herokuapp.com/
+
+## Images of Site:
+
+Homepage:
+![Alt text](images/homepage.png)
+
+Login page:
+![Alt text](images/login.png)
+
+Profile page:
+![Alt text](images/profile.png)

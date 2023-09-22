@@ -1,14 +1,20 @@
-<div class="text-center">
+<div class="text-left">
   <h2>{{title}}</h2>
-  <p>{{{get_emoji}}}</p>
   <p>{{content}}</p>
   <p>Created by {{user.name}} on {{format_date date_created}}</p>
   <p>
-    <span for="img" aria-label="money">💲</span>
-    <span class="dollar-amount">{{content}}</span>
-    needed
-  </p>
-  <p>
-    <button class="btn btn-primary">Please Post To This Blog!</button>
+    {{> comments}}
+    <!-- Render ability to comment based on logged_in status --> 
+    {{#if logged_in}}
+    <form>
+      <label for="comment-content">Comment:</label>
+      <textarea class="comment-input" id="comment-content" name="comment-content" cols="50" placeholder="Remember to be kind to each other." ></textarea>
+      <div class="form-group"> 
+        <button type="submit" class="btn btn-primary">Submit!</button>
+      </div>
+    </form>
+    {{else}}
+    You need to <a href="/login">Login</a> to post a comment.
+    {{/if}}
   </p>
 </div>

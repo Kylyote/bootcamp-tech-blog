@@ -1,19 +1,19 @@
 [
   {
-    "title": "laskdf",
-    "content": "Trying to get things to work",
+    "title": "Are You Really",
+    "content": "Trying to get things to work?",
     "date_created": "06/23/2023",
     "user_id": 1
   },
   {
-    "title": "The Ultimate Tech Quiz",
-    "content": "Not as broken as I thought",
+    "title": "Sometimes code just do what it want",
+    "content": "Not as broken as I thought.",
     "date_created": "06/15/2023",
     "user_id": 2
   },
   {
-    "title": "Roll 'Em Up",
-    "content": "Your brain is smooth like a cobble stone, no ugly wrinkles",
+    "title": "AMD's New Chiplet",
+    "content": "AMD has released a new EPYC server chip sporting near 100 cores all multithreaded for 192 threads per CPU",
     "date_created": "06/26/2023",
     "user_id": 3
   }
